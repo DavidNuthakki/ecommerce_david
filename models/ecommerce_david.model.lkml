@@ -54,7 +54,7 @@ explore: order_items {
     relationship: many_to_one
   }
 }
-
+#note i am writing code as a sudo
 explore: orders {
   join: users {
     type: left_outer
